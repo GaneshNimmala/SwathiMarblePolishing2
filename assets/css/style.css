@@ -10,10 +10,16 @@ h3, p{
 
 #hero-section{
     background: url("../img/hero-bg.png")  center top no-repeat fixed ;
+    background: url("../img/about1.jpg") bottom center no-repeat fixed ;
     background-size: cover;
-    padding: 60px 0 40px 0;
+    padding: 100px 0 40px 0;
     position:relative;
     min-height: 80vh;
+}
+#hero-section .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #hero-section::before {
@@ -72,11 +78,11 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #aboutus-section{
     padding:50px 0px;
     background: linear-gradient(135deg, #1c308194,#eaeaca, #81c8f6 );
+    background: linear-gradient(135deg, #e8e8c5, #acb3b8 );
 }
 
 #aboutus-section h3{
     color: rgb(225, 95, 25);
-   
 }
 
 
@@ -86,10 +92,9 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #aboutus-section h6 {
-
     color:#20247b;
-   
 }
+
 #aboutus-section .text-custom {
     color: #20247b;
     
@@ -609,8 +614,11 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       padding-top: 4px;
     }
     #hero-section{
-      background: url("../img/hero-bg.png")  center  no-repeat fixed ;
+      background: url("../img/hero-bg.png") bottom left  no-repeat fixed ;
+      background: url("../img/about1.jpg") bottom center no-repeat fixed ;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-size: cover;
+      min-height: 60vh;
     }
   }
   
