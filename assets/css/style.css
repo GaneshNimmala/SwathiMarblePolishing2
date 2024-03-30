@@ -14,8 +14,8 @@ h3, p{
     padding: 60px 0 40px 0;
     position:relative;
     min-height: 80vh;
-   
 }
+
 #hero-section::before {
     content: ""; /* Required for pseudo-elements */
     position: absolute; /* Position the pseudo-element relative to the parent */
@@ -42,7 +42,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #hero-section .auto-typed{
    
-    color: #ffd770;
+    color:  #97bfc5;
 }
 
 #hero-section h3{
@@ -55,7 +55,8 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 #hero-section a{
-    background-color: #ffd770;
+    
+    background: linear-gradient(135deg, #fdc800,#e10c7a, #97bfc5);
     padding: 10px;
     border-radius: 10px;
     color:black;
@@ -606,6 +607,10 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
     #footer .credits {
       padding-top: 4px;
+    }
+    #hero-section{
+      background: url("../img/hero-bg.png")  center  no-repeat fixed ;
+      background-size: cover;
     }
   }
   
