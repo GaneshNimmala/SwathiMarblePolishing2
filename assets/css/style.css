@@ -10,11 +10,11 @@ h3, p{
 
 #hero-section{
     background: url("../img/hero-bg.png")  center top no-repeat fixed ;
-    background: url("../img/about1.jpg")  center  top no-repeat fixed ;
+    background: url("../img/about1.jpg")  center  bottom no-repeat fixed ;
     background-size: cover;
     padding: 100px 0 40px 0;
     position:relative;
-    min-height: 80vh;
+    /* min-height: 80vh; */
 }
 #hero-section .container{
   display: flex;
@@ -615,10 +615,10 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     #hero-section{
       background: url("../img/hero-bg.png") bottom left  no-repeat fixed ;
-      background: url("../img/about1.jpg")  center top no-repeat fixed ;
+      background: url("../img/about1.jpg")  center bottom no-repeat fixed ;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-size: cover;
-      min-height: 60vh;
+     
     }
   }
   
